@@ -22,3 +22,7 @@ function tucnePismo() {
     document.querySelector('.odstavec').style.fontWeight = "bold";
 
 }
+
+function stiskKlavesy(udalost) {
+    console.log(udalost.key);
+}
