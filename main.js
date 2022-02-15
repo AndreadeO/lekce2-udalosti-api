@@ -17,3 +17,8 @@ function priNajetiNaCtverec() {
 function zmenStyl() {
     nadpis.classList.toggle('zeleny');
 }
+
+function tucnePismo() {
+    document.querySelector('.odstavec').style.fontWeight = "bold";
+
+}
