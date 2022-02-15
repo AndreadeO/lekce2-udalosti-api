@@ -26,3 +26,9 @@ function tucnePismo() {
 function stiskKlavesy(udalost) {
     console.log(udalost.key);
 }
+
+function startAudio() {
+    let audioFile = document.getElementsById('zvukova-stopa');
+    console.log('Zapinam pisen..');
+    audioFile.play();
+}
