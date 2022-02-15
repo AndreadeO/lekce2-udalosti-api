@@ -28,7 +28,7 @@ function stiskKlavesy(udalost) {
 }
 
 function startAudio() {
-    let audioFile = document.getElementsById('zvukova-stopa');
+    let audioFile = document.getElementById('zvukova-stopa');
     console.log('Zapinam pisen..');
     audioFile.play();
 }
