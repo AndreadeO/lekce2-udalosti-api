@@ -32,3 +32,13 @@ function startAudio() {
     console.log('Zapinam pisen..');
     audioFile.play();
 }
+
+
+let odstavec;
+odstavec = document.querySelector('p');
+odstavec.classList.add('cerveny')
+
+function changeRed() {
+    document.querySelector('.cerveny').style.color = "red";
+    
+}
