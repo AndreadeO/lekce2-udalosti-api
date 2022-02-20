@@ -42,6 +42,7 @@ function pause() {
 function backToStart() {
     let audioFile = document.getElementById('zvukova-stopa');
     console.log('Vracim na zacatek..');
+    audioFile.currentTime = 0;
     audioFile.play();
 
 }
@@ -55,6 +56,6 @@ function changeRed() {
 
 }
 
-function changeSize() 
+function changeSize() {
     document.querySelector('.odstavec').style.fontSize = "fontSize + px";
-
+}
