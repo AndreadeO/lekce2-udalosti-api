@@ -33,6 +33,12 @@ function startAudio() {
     audioFile.play();
 }
 
+function pause() {
+    let audioFile = document.getElementById('zvukova-stopa');
+    console.log('Pauza..');
+    audioFile.pause();
+}
+
 
 let odstavec;
 odstavec = document.querySelector('p');
@@ -40,5 +46,9 @@ odstavec.classList.add('cerveny')
 
 function changeRed() {
     document.querySelector('.cerveny').style.color = "red";
-    
+
 }
+
+function changeSize() 
+    document.querySelector('.odstavec').style.fontSize = "17px"
+
