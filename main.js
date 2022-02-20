@@ -39,6 +39,31 @@ function pause() {
     audioFile.pause();
 }
 
+function mute() {
+    let audioFile = document.getElementById('zvukova-stopa');
+    console.log('Ztisim..');
+    audioFile.volume = 0;
+    audioFile.play();
+
+}
+
+function normalVolume() {
+    let audioFile = document.getElementById('zvukova-stopa');
+    console.log('Hlasitost tak akorat..');
+    audioFile.volume = 0.5;
+    audioFile.play();
+
+}
+
+function maxVolume() {
+    let audioFile = document.getElementById('zvukova-stopa');
+    console.log('Maximalni hlasitost..');
+    audioFile.volume = 1;
+    audioFile.play();
+
+}
+
+
 function backToStart() {
     let audioFile = document.getElementById('zvukova-stopa');
     console.log('Vracim na zacatek..');
