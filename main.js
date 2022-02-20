@@ -39,6 +39,12 @@ function pause() {
     audioFile.pause();
 }
 
+function backToStart() {
+    let audioFile = document.getElementById('zvukova-stopa');
+    console.log('Vracim na zacatek..');
+    audioFile.play();
+
+}
 
 let odstavec;
 odstavec = document.querySelector('p');
@@ -50,5 +56,5 @@ function changeRed() {
 }
 
 function changeSize() 
-    document.querySelector('.odstavec').style.fontSize = "17px"
+    document.querySelector('.odstavec').style.fontSize = "fontSize + px";
 
